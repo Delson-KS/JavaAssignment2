@@ -4,7 +4,6 @@ import java.util.List;
 public class Main {
     public static String printData(Iterable<Person> people) {
         StringBuilder result = new StringBuilder();
-        String dollar="dollar";
         String tenge="tenge";
         for (Person person : people) {
             if (person instanceof Student) {
