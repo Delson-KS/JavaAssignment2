@@ -1,0 +1,3 @@
+interface IPayable {
+    double getPaymentAmount();
+}
